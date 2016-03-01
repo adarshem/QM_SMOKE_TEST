@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <parameter name="deviceName" value="Nexus"/>
+  <parameter name="OSVersion" value="6.0"/>
+  <parameter name="browser" value=""/>
+  <parameter name="platformname" value="Android"/>
+  <parameter name="udid" value="098608fa027f698d"/>
+  <test name="Test Execution in Android(failed)" parallel="none">
+    <parameter name="deviceName" value="Nexus"/>
+    <parameter name="OSVersion" value="6.0"/>
+    <parameter name="browser" value=""/>
+    <parameter name="platformname" value="Android"/>
+    <parameter name="udid" value="098608fa027f698d"/>
+    <classes>
+      <class name="com.qm.test.mynotes.NewNoteCreationDeletionTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="test_a_NoteCreationTest"/>
+          <include name="test_b_DeleteNoteByTapAndHold"/>
+        </methods>
+      </class> <!-- com.qm.test.mynotes.NewNoteCreationDeletionTest -->
+      <class name="com.qm.test.articles.ArticleListingViewTest">
+        <methods>
+          <include name="test_c_ArticleDateTestWithNoPostDate"/>
+          <include name="test_b_ArticleDateTestWithValidPostDate"/>
+          <include name="test_a_ArticleTitleTest"/>
+        </methods>
+      </class> <!-- com.qm.test.articles.ArticleListingViewTest -->
+    </classes>
+  </test> <!-- Test Execution in Android(failed) -->
+</suite> <!-- Failed suite [Suite] -->

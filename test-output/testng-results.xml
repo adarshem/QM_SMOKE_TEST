@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="137877" started-at="2016-02-02T03:17:49Z" finished-at="2016-02-02T03:20:07Z">
+    <groups>
+    </groups>
+    <test name="Test Execution in Android" duration-ms="137877" started-at="2016-02-02T03:17:49Z" finished-at="2016-02-02T03:20:07Z">
+      <class name="com.qm.test.mynotes.NewNoteCreationDeletionTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qm.test.mynotes.NewNoteCreationDeletionTest@79ca2e]" name="beforeTest" is-config="true" duration-ms="38257" started-at="2016-02-02T08:47:49Z" finished-at="2016-02-02T08:48:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nexus]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[098608fa027f698d]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.qm.test.mynotes.NewNoteCreationDeletionTest@79ca2e]" name="loginToApp" is-config="true" duration-ms="10000" started-at="2016-02-02T08:49:08Z" finished-at="2016-02-02T08:49:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="test_a_NoteCreationTest()[pri:0, instance:com.qm.test.mynotes.NewNoteCreationDeletionTest@79ca2e]" name="test_a_NoteCreationTest" duration-ms="35458" started-at="2016-02-02T08:49:18Z" finished-at="2016-02-02T08:49:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_a_NoteCreationTest -->
+        <test-method status="PASS" signature="test_b_DeleteNoteByTapAndHold()[pri:0, instance:com.qm.test.mynotes.NewNoteCreationDeletionTest@79ca2e]" name="test_b_DeleteNoteByTapAndHold" duration-ms="12161" started-at="2016-02-02T08:49:53Z" finished-at="2016-02-02T08:50:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_b_DeleteNoteByTapAndHold -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.qm.test.mynotes.NewNoteCreationDeletionTest@79ca2e]" name="closeApp" is-config="true" duration-ms="1037" started-at="2016-02-02T08:50:05Z" finished-at="2016-02-02T08:50:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.qm.test.mynotes.NewNoteCreationDeletionTest@79ca2e]" name="afterSuite" is-config="true" duration-ms="8440" started-at="2016-02-02T08:50:07Z" finished-at="2016-02-02T08:50:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.qm.test.mynotes.NewNoteCreationDeletionTest -->
+      <class name="com.qm.test.articles.ArticleListingViewTest">
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.qm.test.articles.ArticleListingViewTest@12986ef]" name="loginToApp" is-config="true" duration-ms="37053" started-at="2016-02-02T08:48:27Z" finished-at="2016-02-02T08:49:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="test_a_ArticleTitleTest()[pri:0, instance:com.qm.test.articles.ArticleListingViewTest@12986ef]" name="test_a_ArticleTitleTest" duration-ms="1906" started-at="2016-02-02T08:49:04Z" finished-at="2016-02-02T08:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_a_ArticleTitleTest -->
+        <test-method status="PASS" signature="test_b_ArticleDateTestWithValidPostDate()[pri:0, instance:com.qm.test.articles.ArticleListingViewTest@12986ef]" name="test_b_ArticleDateTestWithValidPostDate" duration-ms="423" started-at="2016-02-02T08:49:06Z" finished-at="2016-02-02T08:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_b_ArticleDateTestWithValidPostDate -->
+        <test-method status="PASS" signature="test_c_ArticleDateTestWithNoPostDate()[pri:0, instance:com.qm.test.articles.ArticleListingViewTest@12986ef]" name="test_c_ArticleDateTestWithNoPostDate" duration-ms="160" started-at="2016-02-02T08:49:07Z" finished-at="2016-02-02T08:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_c_ArticleDateTestWithNoPostDate -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.qm.test.articles.ArticleListingViewTest@12986ef]" name="closeApp" is-config="true" duration-ms="1034" started-at="2016-02-02T08:49:07Z" finished-at="2016-02-02T08:49:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.qm.test.articles.ArticleListingViewTest -->
+    </test> <!-- Test Execution in Android -->
+  </suite> <!-- Suite -->
+</testng-results>

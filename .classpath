@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry exported="true" kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="E:/New folder/RVS-AppiumFramework-1.2/lib/commons-codec-1.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/New folder/RVS-AppiumFramework-1.2/lib/itextpdf-5.5.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/New folder/RVS-AppiumFramework-1.2/lib/java-client-3.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/New folder/RVS-AppiumFramework-1.2/lib/javax.mail.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/New folder/RVS-AppiumFramework-1.2/lib/jcommon-1.0.18.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/New folder/RVS-AppiumFramework-1.2/lib/jfreechart-1.0.13.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/New folder/RVS-AppiumFramework-1.2/lib/log4j-1.2.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/New folder/RVS-AppiumFramework-1.2/lib/poi-3.13-20150929.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/New folder/RVS-AppiumFramework-1.2/lib/poi-ooxml-3.13-20150929.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/New folder/RVS-AppiumFramework-1.2/lib/poi-ooxml-schemas-3.13-20150929.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/New folder/RVS-AppiumFramework-1.2/lib/selenium-server-standalone-2.48.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/New folder/RVS-AppiumFramework-1.2/lib/stax-api-1.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/New folder/RVS-AppiumFramework-1.2/lib/xmlbeans-2.6.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/New folder/RVS-AppiumFramework-1.2/RVS-AppiumFramework-1.2.jar" sourcepath="/RVS-AppiumFrameWork"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
